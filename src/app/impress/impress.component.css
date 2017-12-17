@@ -2,4 +2,25 @@
 @import "~angular-hotkeys/build/hotkeys.css";
 body.impress-on-pr {
   background: radial-gradient(#40a4df, #bebebe);
+  height:100%; 
+  width: 100%;  
+  position: relative;
+}
+.step img {
+    max-width: 100%;
+}
+:host ::ng-deep .step  .impress  .impress-container{
+  top: 0%;
+  left: 0%;
+  height:100%; 
+  width: 100%;
+  position: relative;
+}
+
+.impress  .impress-container{
+  top: 0%;
+  left: 0%;
+  height:100%; 
+  width: 100%;
+  position: relative;
 }

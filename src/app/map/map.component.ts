@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { } from '@types/impress';
 
 @Component({
   selector: 'app-map',
