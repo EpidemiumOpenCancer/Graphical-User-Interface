@@ -4,3 +4,18 @@ h3      {  padding-top:20px; },
 .header {  background-color: lightyellow;  },
 .left   {  background-color: lightblue;  },
 .right  {  background-color: pink;  }
+
+
+.step.active {
+  transform: rotate(-145deg);
+  transition-delay: 0.25s;
+}
+
+mat-sidenav {
+	min-width: 270px;
+}
+/* inactive ..
+.mat-input-flex.mat-form-field-flex {
+    border-top-width: 1px;
+}
+*/
